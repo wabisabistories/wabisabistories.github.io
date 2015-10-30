@@ -6,7 +6,7 @@ layout: default
 <ul>
   {% for nerd in site.categories.nerd %}
     <li>
-      <a href="{{ nerd.url}} ">{{nerd.title}}</a>
+      <strong><a href="{{ nerd.url}} ">{{nerd.title}}</a></strong>
       <p>{{nerd.short}}</p>
     </li>
   {% endfor %}
