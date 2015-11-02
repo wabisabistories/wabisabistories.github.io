@@ -28,11 +28,11 @@
               <li class="button"><a href="mailto:nrdpls@gmail.com">Contact</a></li>
               <li class="button"><a href="https://www.youtube.com/channel/UCt6WXl-uA_SlmhQL9U43vDg/live">Watch Live</a></li>
             </ul>
-                  <ul class="columns medium-4 right primary-nav">
-	                  {% for socials in site.data.socials %}
-	                    <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
-	                  {% endfor %}
-                  </ul>
+            <ul class="columns medium-4 right primary-nav">
+	     {% for socials in site.data.socials %}
+	      <li class="right"><a href="{{ socials.href }}"><span class="icon-{{ socials.title }} socials"></span></a></li>
+	     {% endfor %}
+            </ul>
         </header>
     </div>
      <div id="main_content_wrap" class="outer">
