@@ -1,4 +1,13 @@
 ---
 layout: default
 ---
-<p>plus blog list page</p>
+<h1>PLUS</h1>
+
+<ul>
+  {% for nerd in site.categories.plus %}
+    <li>
+      <strong><a href="{{ plus.url}} ">{{plus.title}}</a></strong>
+      <p>{{plus.short}}</p>
+    </li>
+  {% endfor %}
+</ul>
