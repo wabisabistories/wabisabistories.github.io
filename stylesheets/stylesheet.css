@@ -277,41 +277,6 @@ form {
     white-space: nowrap;
 }
 
-#searchBar {
-    font-size: 80%;
-    padding: 0em 0 0em;
-
-    #search {
-      float: right;
-
-    #searchString {
-      width: 283px;
-      border: none;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-      padding: 0.3em 0.6em;
-      background-color: #222;
-      margin-right: 0;
-      }
-
-    #searchButton {
-      padding: 0.3em 0.6em;
-      background-color: #222;
-      border: 1px solid #f6f5ea;
-      margin-left: 0;
-      color: $black;
-      -webkit-appearance: none;
-      border-radius: 0;
-      }
-
-    #archives {
-      line-height: 2;
-      float: left;
-      color: $black;
-      text-wrap: avoid;
-      }
-    }
-  }
-
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
