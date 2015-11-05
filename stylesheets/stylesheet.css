@@ -301,6 +301,13 @@ form {
           color: $black;
           -webkit-appearance: none;
           border-radius: 0;
+          
+         #archives {
+          line-height: 2;
+          float: left;
+          color: $black;
+          text-wrap: avoid;
+        }
         }
       }
     }
