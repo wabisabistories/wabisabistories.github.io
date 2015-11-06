@@ -5,7 +5,7 @@ title: home
 <ul>
   {% for page in site.posts %}
     <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
       <p>{{ page.excerpt }}</p>
     </li>
   {% endfor %}
