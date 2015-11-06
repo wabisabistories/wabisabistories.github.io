@@ -4,9 +4,8 @@ description: Nerd + Nerd = Passion for life, and nerdy things
 url: "http://nrdpls.com"
 
 paginate: 10
-
 markdown: rdiscount
-permalink: /blog/:title
+
 pygments: true
 
 defaults: 
@@ -16,3 +15,4 @@ defaults:
     type: "posts"
   values:
       layout: "post"
+      permalink: /blog/:title
