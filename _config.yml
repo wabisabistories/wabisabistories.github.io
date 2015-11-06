@@ -9,7 +9,7 @@ markdown: rdiscount
 permalink: pretty
 pygments: true
 
-default: 
+defaults: 
 -
   scope:
     path: ""
