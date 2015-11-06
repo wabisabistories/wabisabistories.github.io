@@ -7,7 +7,7 @@ layout: default
   {% for plus in site.categories.plus %}
     <li>
       <strong><a href="{{ plus.url}} ">{{plus.title}} by {{plus.author}}</a></strong>
-      <p>{% if plus.short %}{{plus.short}}{% endif %}{% if plus.short="" %}{{plus.excerpt}}{% endif %}</p>
+      <p>{{plus.short}}</p>
     </li>
   {% endfor %}
 </ul>
