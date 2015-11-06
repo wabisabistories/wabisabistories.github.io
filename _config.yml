@@ -8,3 +8,11 @@ paginate: 10
 markdown: rdiscount
 permalink: pretty
 pygments: true
+
+default: 
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+      layout: post
