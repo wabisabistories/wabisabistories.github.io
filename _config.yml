@@ -6,7 +6,6 @@ url: "http://nrdpls.com"
 paginate: 10
 permalink: /blog/:title
 markdown: rdiscount
-excerpt_seperator: <!–break–>
 
 pygments: true
 
