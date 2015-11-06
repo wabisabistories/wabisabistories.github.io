@@ -6,7 +6,7 @@ url: "http://nrdpls.com"
 paginate: 10
 
 markdown: rdiscount
-permalink: pretty
+permalink: /blog/:title
 pygments: true
 
 defaults: 
