@@ -2,11 +2,4 @@
 layout: default
 title: home
 ---
-<ul>
-  {% for page in site.posts %}
-    <li>
-      <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
-      <p>{{ page.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts offset: 0 limit: 2  %}
