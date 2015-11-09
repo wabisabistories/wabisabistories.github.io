@@ -2,8 +2,8 @@
 layout: default
 title: home
 ---
-{% for post in site.posts %}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p>{{ post.excerpt }}</p>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+{% for post in site.posts limit:3%}	
+    <h3><a href="{{ post.url }}">{{ post.title }}, {{ post.category }} post by {{ post.author }}</a></h3>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+    {{ post.excerpt }}</small></p>			
 {% endfor %}	
