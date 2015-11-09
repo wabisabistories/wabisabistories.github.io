@@ -6,7 +6,7 @@ layout: default
 <ul>
   {% for plus in site.categories.plus %}
     <li>
-      <strong><a href="{{ plus.url}} ">{{plus.title}} by {{plus.author}}</a></strong>
+      <strong><a href="{{ plus.url}} ">{{plus.title}}</a> by <a href="{{ site.url }}/{{ plus.author | downcase }}"> by {{plus.author}}</a></strong>
       <p>{{plus.short}}</p>
     </li>
   {% endfor %}
