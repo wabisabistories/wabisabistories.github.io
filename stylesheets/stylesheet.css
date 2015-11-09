@@ -109,6 +109,8 @@ h6 {
 
 p {
   margin: 10px 0 10px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 footer p {
