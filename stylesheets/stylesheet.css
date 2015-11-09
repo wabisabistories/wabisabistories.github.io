@@ -81,6 +81,10 @@ h1 a {
   
 }
 
+h1 a:hover, a:focus {color: #ffffff;
+
+}
+
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
