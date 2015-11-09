@@ -3,9 +3,8 @@ layout: default
 title: home
 ---
 {% for post in site.posts limit:2  %}
-{% if forloop.last %}
   <li>
     <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+    {% post.excerpt %}
   </li>
-{% endif %}
 {% endfor %}
