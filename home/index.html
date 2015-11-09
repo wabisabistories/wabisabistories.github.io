@@ -4,6 +4,6 @@ title: home
 ---
 <h3>Recent Posts</h3>
 {% for post in site.posts limit:3%}	
-    <h3><a href="{{ post.url }}">{{ post.title }}, {{ post.category }} post by {{ post.author }}</a><p style="text-align:right;"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p></h3>
+    <h3><a href="{{ post.url }}">{{ post.title }}, {{ post.category }} post by {{ post.author }}</a></h3><p style="text-align:right;"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p>
     <p><small>{{ post.excerpt }}</small></p>			
 {% endfor %}	
