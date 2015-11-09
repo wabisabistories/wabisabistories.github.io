@@ -2,7 +2,10 @@
 layout: default
 title: home
 ---
-{% for page in site.posts offset: 0 limit: 2  %}
-  {% page.title %}
-  {% page.excerpt %}
+{% for post in site.posts limit:1  %}
+{% if forloop.last %}
+  <li>
+    <a href="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+{% endif %}
 {% endfor %}
