@@ -3,7 +3,7 @@ layout: default
 title: home
 ---
 <h3>Recent Posts</h3>
-{% for post in site.posts reversed limit:3%}	
+{% for post in site.posts limit:3%}	
     <h3><a href="{{ post.url }}">{{ post.title }}, {{ post.category }} post by {{ post.author }}</a></h3>
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong>
     {{ post.excerpt }}</small></p>			
