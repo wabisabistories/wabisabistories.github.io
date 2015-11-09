@@ -5,7 +5,7 @@ title: home
 {% for post in site.posts limit:2  %}
 {% if forloop.last %}
   <li>
-    <a href="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
   </li>
 {% endif %}
 {% endfor %}
