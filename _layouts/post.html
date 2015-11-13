@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
-  <h2>{{ page.title }}</h2>
-  <h3>by: <a href="{{ site.url }}/{{ page.author | downcase }}">{{page.author}}</a></h3>
+  <div id="element1">
+    <h2>{{ page.title }}by: <a href="{{ site.url }}/{{ page.author | downcase }}">{{page.author}}</a></h2>
+  </div>
+  <div id="element2">
+    <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
+  </div>   
   {{content}}
