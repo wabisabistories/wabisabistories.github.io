@@ -293,7 +293,7 @@ form {
   
 } 
 
-#element2 {display:inline-block; text-align: right; float: right; margin-top: 10px;
+#element2 {display:inline-block; text-align: right;
   
 } 
 
@@ -444,6 +444,10 @@ Small Device Styles
   h3 {
     font-size: 21px;
   }
+  
+  #element2 {display:inline-block; text-align: right; margin-top: 10px;
+  
+  } 
   
   h4 {
     font-size: 18px;
