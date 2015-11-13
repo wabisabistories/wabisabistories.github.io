@@ -462,5 +462,9 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+  
+  #element2 {display:inline-block; text-align: right; float: right; margin-top: 10px;
+  
+  } 
 
 }
