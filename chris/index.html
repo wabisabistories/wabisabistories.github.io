@@ -1,4 +1,15 @@
 ---
 layout: default
 ---
-Chris' page
+<h2>About Chris</h2>
+
+<h2>Chris' Posts</h2>
+
+<ul>
+  {% for chris in page.author %}
+    <li>
+      <strong><a href="{{ chris.url}} ">{{ chris.title }}</a> by <a href="{{ site.url }}/{{ chris.author | downcase }}">{{ chris.author }}</a></strong>
+      <p>{{ chris.short }}</p>
+    </li>
+  {% endfor %}
+</ul>
