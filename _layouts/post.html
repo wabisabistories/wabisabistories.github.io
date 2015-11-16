@@ -1,17 +1,10 @@
 ---
 layout: default
 ---
-<!-- Look the author details up from the site config. -->
-{% assign author = site.data.authors[page.author] %}
-
-{% if author %}
-    <span>
-  <div id="element1">
-    <h3>{{ page.title }} by: <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
-  </div>
-      </span>
-{% endif %}
-  <div id="element2">
-    <small><strong>{{ page.date | date: "%B %e, %Y" }}</strong></small>
-  </div>   
-  {{content}}
++  <div id="element1">
++    <h2>{{ page.title }}by: <a href="{{ site.url }}/{{ page.author | downcase }}">{{page.author}}</a></h2>
++  </div>
++  <div id="element2">
++    <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
++  </div>   
+   {{content}}
