@@ -5,11 +5,12 @@ layout: default
 
 <h2>Chris' Posts</h2>
 
-<ul>
-  {% for chris in site.posts.author %}
-    <li>
-      <strong><a href="{{ chris.url}} ">{{ chris.title }}</a> by <a href="{{ site.url }}/{{ chris.author | downcase }}">{{ chris.author }}</a></strong>
-      <p>{{ chris.short }}</p>
-    </li>
-  {% endfor %}
-</ul>
+{% for chris in site.posts.author limit:3%}	
+        <div id ="element1">        
+                <h3><a href="{{ post.url }}">{{ post.title }}</a>, a <a href="{{ site.url }}/{{ post.category }}">{{ post.category }}</a> post by <a href="{{ site.url }}/{{ post.author | downcase}}">{{ post.author }}</a></h3>
+        </div>
+        <div id="element2">
+                <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
+        </div>    
+    <p><small>{{ post.excerpt }}</small></p>			
+{% endfor %}	
