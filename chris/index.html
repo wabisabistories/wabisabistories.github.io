@@ -2,15 +2,3 @@
 layout: default
 ---
 <h2>About Chris</h2>
-
-<h2>Chris' Posts</h2>
-
-{% for chris in page.author limit:3%}	
-        <div id ="element1">        
-                <h3><a href="{{ chris.url }}">{{ chris.title }}</a>, a <a href="{{ site.url }}/{{ chris.category }}">{{ chris.category }}</a> post by <a href="{{ site.url }}/{{ chris.author | downcase}}">{{ chris.author }}</a></h3>
-        </div>
-        <div id="element2">
-                <small><strong>{{ chris.date | date: "%B %e, %Y" }}</strong></small>
-        </div>    
-    <p><small>{{ chris.short }}</small></p>			
-{% endfor %}	
