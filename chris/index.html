@@ -8,6 +8,14 @@ layout: default
 {% assign posts_chris = site.posts | author:"chris" %}
 <ul>
 {% for post in posts_chris limit:5 %}
-     <li>Post</li>
+     <li>
+     <div id='element1'> 
+          <strong><a href="{{ post.url}} ">{{ post.title }}</a></strong>
+     </div>
+     <div id="element2">
+          <small><strong>{{ page.date | date: "%B %e, %Y" }}</strong></small>
+     </div> 
+      <p>{{ post.short }}</p>
+    </li>
 {% endfor %}
 </ul>
