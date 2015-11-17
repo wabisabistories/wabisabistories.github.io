@@ -9,13 +9,8 @@ layout: default
 <ul>
 {% for post in posts_chris limit:5 %}
      <li>
-     <div id='element1'> 
-          <strong><a href="{{ post.url}} ">{{ post.title }}</a></strong>
-     </div>
-     <div id="element2">
-          <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
-     </div> 
-      <p>{{ post.short }}</p>
+     <strong><a href="{{ post.url}} ">{{ post.title }}</a></strong>
+     <p>{{ post.short }}</p>
     </li>
 {% endfor %}
 </ul>
