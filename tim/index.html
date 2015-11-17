@@ -1,4 +1,20 @@
 ---
 layout: default
 ---
-Tim's page
+<h2>About Tim</h2>
+
+<h2>Tim's Post Archive</h2>
+<ul>
+{% for post in site.posts do %}
+  {% if post.author == "Tim" %}
+    <div id="element1">
+      <li><strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+    </div>
+    <div id="element2">
+        <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
+    </div> 
+    <p>{{ post.short}}</p>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
