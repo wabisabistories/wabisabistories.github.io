@@ -4,3 +4,10 @@ layout: default
 <h2>About Chris</h2>
 
 <h2>Recent Posts</h2>
+<ul>
+{% for post in site.posts do %}
+  {% if post.author == "Chris" %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
