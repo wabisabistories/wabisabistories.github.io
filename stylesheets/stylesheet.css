@@ -459,7 +459,7 @@ Small Device Styles
 
   code, pre {
     min-width: 320px;
-    max-width: 480px;
+    max-width: 320px;
     font-size: 11px;
   }
   
