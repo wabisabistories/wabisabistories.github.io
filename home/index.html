@@ -4,8 +4,10 @@ title: home
 ---
 <h2>Recent Posts</h2>
 {% for post in site.posts limit:3%}
-  <div class="titletext">
-  <span class="title"><h3><a href="{{ post.url }}">{{ post.title }}</a>, a <a href="{{ site.url }}/{{ post.category }}">{{ post.category }}</a> post by <a href="{{ site.url }}/{{ post.author | downcase}}">{{ post.author }}</a></h3></span>
+  <div id="element1">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a>, a <a href="{{ site.url }}/{{ post.category }}">{{ post.category }}</a> post by <a href="{{ site.url }}/{{ post.author | downcase}}">{{ post.author }}</a></h3>
+  </div>
+  <div id="element2">
   <span class="date"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></span>
   </div>
 {{ post.content }}
