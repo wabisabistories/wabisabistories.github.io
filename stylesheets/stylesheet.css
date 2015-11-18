@@ -48,10 +48,6 @@ table {
 Theme Styles
 *******************************************************************************/
 
-@viewport {
-width: 800px;
-}
-
 body {
   box-sizing: border-box;
   color:#373737;
