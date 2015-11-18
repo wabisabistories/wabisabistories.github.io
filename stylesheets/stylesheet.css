@@ -298,8 +298,8 @@ form {
 }
 .titletext{
 
-    display: block;
-    height: 36px;
+    display: inline-block;
+    min-height:30px;
     clear: both;
 }
 
