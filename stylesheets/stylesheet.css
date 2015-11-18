@@ -303,17 +303,19 @@ form {
     clear: both;
 }
 
+.titletext .title {
+    display: inline-block;
+    float:left;
+    font-size: 24px;
+    width: 420px;
+    text-align: left;
+}
+
 .titletext .date { 
     float:right; 
     font-size: 20px; 
     width: 200px;
     text-align: right;
-}
-.titletext .title { 
-    float:left;
-    font-size: 24px;
-    width: 420px;
-    text-align: left;
 }
 
 /*******************************************************************************
