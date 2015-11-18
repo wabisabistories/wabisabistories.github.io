@@ -296,15 +296,23 @@ form {
 #element2 {display:inline-block; position: absolute; right: 0px; margin-top: 8px;
   
 }
-.titletext
-{
+.titletext{
+
     display: block;
     height: 36px;
     clear: both;
 }
 
-.titletext .date { float:right }
-.titletext .title { float:left }
+.titletext .date { 
+    float:right; 
+    font-size: 24px; 
+  
+}
+.titletext .title { 
+    float:left;
+    font-size: 24px;
+
+}
 
 /*******************************************************************************
 Full-Width Styles
