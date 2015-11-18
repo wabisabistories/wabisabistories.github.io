@@ -308,13 +308,13 @@ form {
     font-size: 20px; 
     width: 200px;
     text-align: right;
+    padding-top: 8px;
 }
 .titletext .title { 
     float:left;
     font-size: 24px;
     width: 420px;
     text-align: left;
-    padding-top: 8px;
 }
 
 /*******************************************************************************
