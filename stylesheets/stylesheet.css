@@ -299,6 +299,7 @@ form {
 .titletext
 {
     display: block;
+    height: 24px;
     clear: both;
 }
 
