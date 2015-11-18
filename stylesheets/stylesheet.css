@@ -304,9 +304,9 @@ form {
 }
 
 .titletext .title {
-    display: inline-block;
     float:left;
     font-size: 24px;
+    width: 420px;
     text-align: left;
 }
 
