@@ -296,7 +296,7 @@ form {
 #div-wrapper {
     white-space: normal;
     max-width: 99%;
-    margin-bottom: 5xp;
+    clear: both;
 }
 
 #element1 {
