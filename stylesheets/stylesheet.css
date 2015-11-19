@@ -475,9 +475,10 @@ Small Device Styles
   }
   
   #element1 {
-  display:inline-block; 
-  float: left;
-  width: 59%;
+    font-size: 3.75vw;
+    display:inline-block; 
+    float: left;
+    width: 59%;
 } 
   
   #element2 {
