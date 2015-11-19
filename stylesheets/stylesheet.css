@@ -302,7 +302,7 @@ form {
 }
 
 #div-wrapper {
-    white-space: nowrap;
+    white-space: normal;
     max-width: 99%;
 }
 
