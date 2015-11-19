@@ -9,10 +9,10 @@ title: home
   <h3><a href="{{ post.url }}">{{ post.title }}</a>, a <a href="{{ site.url }}/{{ post.category }}">{{ post.category }}</a> post by <a href="{{ site.url }}/{{ post.author | downcase}}">{{ post.author }}</a></h3>
   </div>
   <div id="element2">
-  <span class="date"><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></span>
+  <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
   </div>
-</div>
 {{ post.content }}
+</div>
 <strong><small><a href="http://nrdpls.com/home">NRDPLS</a></small></strong>
 <br><br>
 {% endfor %}	
