@@ -5,7 +5,7 @@ layout: default
    <h3>{{ page.title }} by: <a href="{{ site.url }}/{{ page.author | downcase }}">{{page.author}}</a></h3>
 </div>
 <div id="element2">
-   <p><small><strong>{{ page.date | date: "%B %e, %Y" }}</strong></small></p>
+   <strong>{{ page.date | date: "%B %e, %Y" }}</strong>
 </div>   
 <div id="element3">
    {{content}}
