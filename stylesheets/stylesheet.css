@@ -478,4 +478,7 @@ Small Device Styles
     font-size: 4vw;
   }
   
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #000000;
+}
 }
