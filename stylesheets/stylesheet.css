@@ -323,7 +323,7 @@ form {
   background-color:#8c8c8c;
 }
 
-.navbar-inverse .navbar>li>a {
+.navbar-inverse .navbar-nav>li>a {
   color: #000000;
 }
 
