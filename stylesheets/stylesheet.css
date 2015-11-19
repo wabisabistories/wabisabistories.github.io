@@ -477,12 +477,12 @@ Small Device Styles
     font-size: 3.50vw;
     display:inline-block; 
     float: left;
-    width: 59%;
+    width: 64%;
 } 
   
   #element2 {
     font-size: 3vw;
-    width: 40%
+    width: 35%;
     margin-left: 1%;
   }
   
