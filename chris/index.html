@@ -7,14 +7,16 @@ layout: default
 <ul>
 {% for post in site.posts do %}
   {% if post.author == "Chris" %}
+  <div id="div-wrapper">
     <div id="element1">
       <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     </div>
     <div id="element2">
     <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small>
-    </div> 
-    <p>{{ post.short}}</p>
-    </li>
+    </div>
+  </div>
+        <p>{{ post.short}}</p>
+      </li>
   {% endif %}
 {% endfor %}
 </ul>
