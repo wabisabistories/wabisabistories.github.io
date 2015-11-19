@@ -315,9 +315,8 @@ form {
 }
 
 #element3 {
-  clear:left;
+  clear:both;
   text-align: justify;
-  float: left;
 }
 
 /*******************************************************************************
