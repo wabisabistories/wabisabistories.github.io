@@ -12,11 +12,11 @@ layout: default
       <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     </div>
     <div id="element2">
-        <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small></p>
+        <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
     </div> 
   </div>
     <div id="element3">
-      <p>{{ post.short}}</p>
+      {{ post.short}}
     </div>
     </li>
   {% endif %}
