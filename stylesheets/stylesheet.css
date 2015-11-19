@@ -302,7 +302,7 @@ form {
 #element1 {
   display:inline-block; 
   float: left;
-  width: 70%;
+  width: 75%;
 } 
 
 #element2 {
@@ -311,7 +311,6 @@ form {
   float: right;
   right: 0px;
   margin-top: 8px;
-  width: 30%;
 }
 
 #element3 {
