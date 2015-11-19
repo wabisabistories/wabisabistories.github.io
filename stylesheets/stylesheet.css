@@ -293,17 +293,24 @@ form {
     white-space: nowrap;
 }
 
-#element1 {display:inline-block; text-align: left;
-  
-} 
-
-#element2 {display:inline-block; position: absolute; right: 0px; margin-top: 8px;
-  
-}
-
 #div-wrapper {
     white-space: normal;
     max-width: 99%;
+}
+
+#element1 {
+  display:inline-block; 
+  float: left;
+  width: 80%;
+} 
+
+#element2 {
+  display:inline-block;
+  text-align: right;
+  float: right;
+  right: 0px;
+  margin-top: 8px;
+  width: 20%;
 }
 
 /*******************************************************************************
