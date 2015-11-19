@@ -315,7 +315,7 @@ form {
 }
 
 #element3 {
-  clear:left
+  clear:left;
   text-align: justify;
   float: left;
 }
