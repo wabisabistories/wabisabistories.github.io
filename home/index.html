@@ -3,7 +3,9 @@ layout: default
 title: home
 ---
 <h2>Recent Posts</h2>
+<ul>
 {% for post in site.posts limit:3%}
+<li>
 <div id="div-wrapper">
   <div id="element1">
     <h3><a href="{{ post.url }}">{{ post.title }}</a>, a <a href="{{ site.url }}/{{ post.category }}">{{ post.category }}</a> post by <a href="{{ site.url }}/{{ post.author | downcase}}">{{ post.author }}</a></h3>
@@ -17,4 +19,6 @@ title: home
   </div>
 <p><strong><small><a href="http://nrdpls.com/home">NRDPLS</a></small></strong></p>
 <br>
+</li>
 {% endfor %}	
+</ul>
