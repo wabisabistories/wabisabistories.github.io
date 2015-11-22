@@ -300,6 +300,18 @@ form {
     clear: both;
 }
 
+.logo {
+    display: inline-block;
+    float: left;
+    max-height: 119px;
+    max-width: auto;
+}
+
+#headertext {
+    display: inline-block;
+    float: left;
+}
+
 #element1 {
   display:inline-block; 
   float: left;
@@ -401,7 +413,7 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -472,7 +484,7 @@ Small Device Styles
   }
 
   #project_tagline {
-    font-size: 6vw;
+    font-size: 4.6vw;
   }
 
   h1 {
@@ -480,7 +492,7 @@ Small Device Styles
   }
   
   h2 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   
   h3 {
@@ -506,5 +518,14 @@ Small Device Styles
   
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #000000;
+}
+    
+  .logo {
+    max-height: 16vw;
+    max-width: auto;
+}
+    
+   #headertext {
+    max-width: 80%;
 }
 }
