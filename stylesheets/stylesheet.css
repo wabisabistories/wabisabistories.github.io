@@ -310,7 +310,15 @@ Max-height:100%;
 Max-width: auto;
 }
 
-#headericon, #headertext {
+#headericon  {
+    Display: inline;
+    Float: left;
+    Max-width: auto;
+    Max-height: 100%;
+    Clear: right;
+}
+
+#headertext {
     Display: inline;
     Float: left;
     Max-width: auto;
