@@ -322,6 +322,7 @@ form {
   margin: auto;
   margin-bottom: 20px;
   max-width: 640px;
+  padding: 20px 0px;
 }
 
 .navbar-inverse {
