@@ -311,15 +311,15 @@ Max-width: auto;
 }
 
 #headericon {
-    Display: inline;
+    Display: inline-block;
     Float: left;
-    Max-width: 20%;
+    Max-width: auto;
 }
 
 #headertextarea {
-    Display: inline;
+    Display: inline-block;
     Float: right;
-    Max-width: 80%;
+    Max-width: auto;
 }
 
 #element1 {
