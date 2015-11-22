@@ -301,6 +301,14 @@ form {
     clear: both;
 }
 
+.logo {
+position:absolute;
+right:25%;
+top:0px;
+width:20%;
+height:auto;
+}
+
 #headericon {
     Display: inline;
     Float: left;
