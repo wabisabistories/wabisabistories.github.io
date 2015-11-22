@@ -304,6 +304,7 @@ form {
 
 .logo {
 Display: inline;
+Position: absolute;
 Left:0%;
 top:0px;
 Max-height:100%;
