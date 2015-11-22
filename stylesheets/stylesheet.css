@@ -306,8 +306,8 @@ Display: inline-block;
 position:absolute;
 Left:0%;
 top:0px;
-width:35%;
-Max-height:119px;
+Max-height:100%;
+Max-width: auto;
 }
 
 #headericon {
