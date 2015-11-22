@@ -303,30 +303,12 @@ form {
 
 .logo {
 Display: inline;
+Position: absolute;
 Left:0%;
 top:0px;
 Max-height:100%;
 Max-width: auto;
 }
-
-#headericon  {
-    Display: inline;
-    Float: left;
-    Max-width: auto;
-    Max-height: 100%;
-}
-
-#headertext1 {
-    Display: inline;
-    Float: left;
-    Clear: right;
-}
-
-#headertext2 {
-    Display: inline;
-    Float: left;
-}
-
 
 #element1 {
   display:inline-block; 
