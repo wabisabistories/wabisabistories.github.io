@@ -92,7 +92,6 @@ h1 a:hover, a:focus {color: #ffffff;
 h2 {
   padding-bottom: 0px;
   font-size: 32px;
-  display: inline;
 }
 
 h3 {
@@ -299,15 +298,6 @@ form {
     white-space: normal;
     max-width: 99%;
     clear: both;
-}
-
-.logo {
-Display: inline;
-Position: absolute;
-Left:0%;
-top:0px;
-Max-height:100%;
-Max-width: auto;
 }
 
 #element1 {
