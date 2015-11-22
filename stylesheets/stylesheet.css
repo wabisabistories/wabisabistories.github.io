@@ -304,7 +304,7 @@ form {
 
 .logo {
 Display: inline;
-Position: absolute;
+Float: left;
 Left:0%;
 top:0px;
 Max-height:100%;
@@ -321,16 +321,12 @@ Max-width: auto;
 #headertext1 {
     Display: inline;
     Float: left;
-    Max-width: auto;
-    Max-height: 100%;
     Clear: right;
 }
 
 #headertext2 {
     Display: inline;
     Float: left;
-    Max-width: auto;
-    Max-height: 100%;
 }
 
 
