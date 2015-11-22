@@ -308,6 +308,7 @@ Left:0%;
 top:0px;
 Max-height:100%;
 Max-width: auto;
+Clear: right;
 }
 
 #headericon {
