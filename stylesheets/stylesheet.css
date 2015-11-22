@@ -318,6 +318,12 @@ form {
   text-align: justify;
 }
 
+.navbar {
+  margin: auto
+  margin-bottom: 20px
+  max-width: 640px;
+}
+
 .navbar-inverse {
   background-color:#8c8c8c;
 }
