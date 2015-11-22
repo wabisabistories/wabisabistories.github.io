@@ -301,6 +301,18 @@ form {
     clear: both;
 }
 
+#headericon {
+    Display: inline;
+    Float: left;
+    Max-width: 20%;
+}
+
+#headertextarea {
+    Display: inline;
+    Float: right;
+    Max-width: 80%;
+}
+
 #element1 {
   display:inline-block; 
   float: left;
