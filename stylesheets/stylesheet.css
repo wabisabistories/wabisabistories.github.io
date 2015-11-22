@@ -315,15 +315,23 @@ Max-width: auto;
     Float: left;
     Max-width: auto;
     Max-height: 100%;
+}
+
+#headertext1 {
+    Display: inline;
+    Float: left;
+    Max-width: auto;
+    Max-height: 100%;
     Clear: right;
 }
 
-#headertext {
+#headertext2 {
     Display: inline;
     Float: left;
     Max-width: auto;
     Max-height: 100%;
 }
+
 
 #element1 {
   display:inline-block; 
