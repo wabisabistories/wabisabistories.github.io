@@ -302,7 +302,6 @@ form {
 
 .logo {
     display: inline-block;
-    float: left;
     max-height: 119px;
     max-width: auto;
 }
