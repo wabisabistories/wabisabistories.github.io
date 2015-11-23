@@ -373,8 +373,6 @@ form {
 
     a {
         color: #fff;
-        margin-left: 10px;
-
 
         &:hover {
             border-bottom: 1px dashed #fff;
@@ -385,6 +383,7 @@ form {
 #share-page-right {
     display: inline-block;
     word-spacing: 2vw;   
+    margin-left: 10px;
 }
 
 /*******************************************************************************
