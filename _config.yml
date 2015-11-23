@@ -6,6 +6,7 @@ paginate: 10
 permalink: /blog/:title
 markdown: rdiscount
 excerpt_separator: <!--more-->
+twitter_username: nrdpls
 
 pygments: true
 
