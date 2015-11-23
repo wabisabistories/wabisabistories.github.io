@@ -363,7 +363,7 @@ form {
   background-color:#8c8c8c
 }
 
-.share-page {
+#share-page {
     text-align: center;
     background: #8c8c8c;
     padding: 8px 15px;
@@ -375,10 +375,16 @@ form {
         color: #fff;
         margin-left: 10px;
 
+
         &:hover {
             border-bottom: 1px dashed #fff;
         }
     }
+}
+
+#share-page-right {
+    display: inline-block;
+    word-spacing: 2vw;   
 }
 
 /*******************************************************************************
@@ -553,4 +559,8 @@ Small Device Styles
    #headertext {
     max-width: 80%;
 }
+
+  #share-page {
+    font-size: 4vw;
+  }
 }
