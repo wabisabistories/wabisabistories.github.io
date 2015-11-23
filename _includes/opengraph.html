@@ -1,36 +1,37 @@
-<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ site.title }}" property="og:site_name" />
 {% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{ page.title }}" property="og:title" />
 {% else %}
-  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{ site.title }}" property="og:title" />
 {% endif %}
 {% if page.title %}
-  <meta content="article" property="og:type">
+  <meta content="article" property="og:type" />
 {% else %}
-  <meta content="website" property="og:type">
+  <meta content="website" property="og:type" />
 {% endif %}
 {% if page.short %}
-  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{ page.description }}" property="og:description" />
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{ site.description }}" property="og:description" />
 {% endif %}
-  <meta content="{{ page.url }}" property="og:url">
+  <meta content="{{ page.url }}" property="og:url" />
 {% if page.date %}
-  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time" />
+  <meta content="{{ site.url }}/about/" property="article:author" />
 {% endif %}
 {% if page.image %}
-  <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
+  <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image" />
 {% else %}
-  <meta content="{{ site.url }}/images/SquareNRD.png" property="og:image">
+  <meta content="{{ site.url }}/images/SquareNRD.png" property="og:image" />
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
+  <meta content="{{ category }}" property="article:section" />
   {% endfor %}
 {% endif %}
 {% if page.tags %}
   {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
+  <meta content="{{ tag }}" property="article:tag" />
   {% endfor %}
+  <meta content="fb:app_id" content="956209357778602" />
 {% endif %}
