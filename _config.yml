@@ -2,6 +2,7 @@ name: NRDPLS
 title: NRDPLS
 description: Passion for life, and other nerdy things
 url: "http://nrdpls.com"
+icon: "http://nrdpls.com/images/SquareNRD.png"
 
 paginate: 10
 permalink: /blog/:title
