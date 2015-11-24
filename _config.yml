@@ -5,7 +5,7 @@ url: "http://nrdpls.com"
 icon: "http://nrdpls.com/images/SquareNRD.png"
 
 paginate: 10
-permalink: /blog/:title
+permalink: /blog/:title/
 markdown: rdiscount
 excerpt_separator: <!--more-->
 twitter_username: nrdpls
