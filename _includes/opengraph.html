@@ -1,3 +1,11 @@
+<meta name="description" content="{% if page.short %}{{ page.short | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+{% endif %}
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
 <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
