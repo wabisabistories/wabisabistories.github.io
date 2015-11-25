@@ -6,25 +6,10 @@
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
-<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.icon }}{% endif %}">
-<meta property="og:description" content="{% if page.short %}{{ page.short }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:site_name" content="{{ site.name }}">
-
-{% if page.categories %}
-  {% for category in page.categories limit:1 %}
-  <meta property="article:section" content="{{ category }}">
-  {% endfor %}
-{% endif %}
-
-{% if page.tags %}
-  {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag }}">
-  {% endfor %}
-{% endif %}
-
+<meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title"              content="{{ page.title }}" />
+<meta property="og:description"        content="{{ page.short }}" />
+<meta property="og:image"              content="{{ site.url }}{{ page.image }}" />
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
 
 <meta name="twitter:card" content="summary">
