@@ -2,7 +2,7 @@ name: NRDPLS
 title: NRDPLS
 description: Passion for life, and other nerdy things
 url: "http://nrdpls.com"
-icon: "http://nrdpls.com/images/SquareNRD.png"
+icon: /images/SquareNRD.png
 
 fb_appid: 956209357778602
 paginate: 10
