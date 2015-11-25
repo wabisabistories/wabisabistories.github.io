@@ -6,11 +6,11 @@
 
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-<meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
-<meta property="og:title"              content="{{ page.title }}" />
-<meta property="og:type"               content="article" />
-<meta property="og:description"        content="{{ page.short }}" />
-<meta property="og:image"              content="{{ site.url }}{{ page.image }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="{{ page.short }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 <meta property="og:image:width" content="640" /> 
 <meta property="og:image:height" content="442" />
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
@@ -19,7 +19,7 @@
 <meta name="twitter:site" content="@NRDPLS">
 <meta name="twitter:creator" content="@NRDPLS">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
-<meta name="twitter:description" content="{% if page.shortt %}{{ page.short | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:description" content="{% if page.short %}{{ page.short | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.icon }}{% endif %}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 
