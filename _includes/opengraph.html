@@ -18,3 +18,11 @@
 {% endif %}
 
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@NRDPLS">
+<meta name="twitter:creator" content="@NRDPLS">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+<meta name="twitter:description" content="{% if page.shortt %}{{ page.short | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.icon }}{% endif %}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
