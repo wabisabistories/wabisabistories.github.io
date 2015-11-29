@@ -31,7 +31,7 @@
 
     $.extend(Gallery.prototype.options, {
         // Defines if the gallery should open in fullscreen mode:
-        fullScreen: false
+        fullScreen: true
     });
 
     var initialize = Gallery.prototype.initialize,
