@@ -14,17 +14,6 @@ comments: true
     <a class="play-pause"></a>
 </div>
 
-<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
-
 <div id="links" style="display: none">
     <a href="/images/renwick_11_28/Renwick-11-28(1).jpg" title="1">
         <img src="/images/renwick_11_28/Renwick-11-28(1).jpg" alt="1">
@@ -56,15 +45,4 @@ blueimp.Gallery(
         carousel: true
     }
 );
-</script>
-
-<script>
-document.getElementById('links').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
 </script>
