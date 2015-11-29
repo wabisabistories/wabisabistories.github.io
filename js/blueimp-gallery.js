@@ -130,7 +130,7 @@
             // Stops any touches on the container from scrolling the page:
             disableScroll: true,
             // Carousel mode (shortcut for carousel specific options):
-            carousel: false,
+            carousel: true,
             // Allow continuous navigation, moving from last to first
             // and from first to last slide:
             continuous: true,
@@ -139,7 +139,7 @@
             // Start with the automatic slideshow:
             startSlideshow: false,
             // Delay in milliseconds between slides for the automatic slideshow:
-            slideshowInterval: 5000,
+            slideshowInterval: 2000,
             // The starting index as integer.
             // Can also be an object of the given list,
             // or an equal object with the same url property:
