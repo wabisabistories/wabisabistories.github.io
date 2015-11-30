@@ -298,6 +298,10 @@ form {
     white-space: nowrap;
 }
 
+.nav>li>a {
+    padding: 10px 10px;
+}
+
 #div-wrapper {
     white-space: normal;
     max-width: 99%;
