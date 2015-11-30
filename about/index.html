@@ -9,3 +9,23 @@ title: about
 Our goal is simply to provide you a window into our lives with the hope that we can add some value and entertainment to your day and vice versa. As much as we're excited to share our passions with you, we want to learn about you and what drives you too. We want to know what gets you all excited about your life. What are you passionate about? What can you talk about for hours and hours, long before the last person in the room has stopped listening? What dominates your daydreams? What goals are you striving for? How are you growing and improving?
 <br><br>
 Welcome to NRDPLS! It's ok to be you, when you're around us.</p>
+
+<h2>NRDPLS Post Archive</h2>
+<ul>
+{% for post in site.posts do %}
+  {% if post.author == "NRDPLS" %}
+  <div id="div-wrapper">
+    <div id="element1">
+      <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+    <div id="element2">
+      <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+    </div>
+  </div>
+    <div id="element3">
+      {{ post.short}}
+    </div>
+      </li>
+  {% endif %}
+{% endfor %}
+</ul>
