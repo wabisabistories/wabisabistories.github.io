@@ -5,45 +5,8 @@ short: we're testing the functionality of the image gallery
 category: plus
 comments: true
 ---
-<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
+<div id='slider' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img src="/images/renwick_11_28/Renwick-11-28(1).jpg" alt="1"></div>
+  </div>
 </div>
-
-<div id="links" style="display: none">
-    <a href="/images/renwick_11_28/Renwick-11-28(1).jpg" title="1">
-        <img src="/images/renwick_11_28/Renwick-11-28(1).jpg" alt="1">
-    </a>
-    <a href="/images/renwick_11_28/Renwick-11-28(2).jpg" title="2">
-        <img src="/images/renwick_11_28/Renwick-11-28(2).jpg" alt="2">
-    </a>
-    <a href="/images/renwick_11_28/Renwick-11-28(3).jpg" title="3">
-        <img src="/images/renwick_11_28/Renwick-11-28(3).jpg" alt="3">
-    </a>
-    <a href="/images/renwick_11_28/Renwick-11-28(4).jpg" title="4">
-        <img src="/images/renwick_11_28/Renwick-11-28(4).jpg" alt="4">
-    </a>
-    <a href="/images/renwick_11_28/Renwick-11-28(5).jpg" title="5">
-        <img src="/images/renwick_11_28/Renwick-11-28(5).jpg" alt="5">
-    </a>
-    <a href="/images/renwick_11_28/Renwick-11-28(6).jpg" title="6">
-        <img src="/images/renwick_11_28/Renwick-11-28(6).jpg" alt="6">
-    </a>
-</div>
-
-<script src="js/blueimp-gallery.min.js"></script>
-
-<script>
-blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
-    {
-        container: '#blueimp-gallery-carousel',
-        carousel: true
-    }
-);
-</script>
