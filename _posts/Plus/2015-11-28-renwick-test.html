@@ -76,3 +76,18 @@ Testing out the functionality of the slideshow and gallery with pics from our re
 </div>
 
 <script src="/js/blueimp-gallery.min.js"></script>
+
+<script>blueimp.Gallery.prototype.setTitle = function (index) {
+    var obj = $(this.list[index]);
+    this.titleElement.html(obj.data('title-html'));
+};
+</script>
+
+<script>blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
