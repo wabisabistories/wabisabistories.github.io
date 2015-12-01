@@ -924,10 +924,16 @@
             this.setTimeout(this.options.onslide, [index, this.slides[index]]);
         },
 
-        setTitle = function (index) {
-            var obj = $(this.list[index]);
-                this.titleElement.html(obj.data('title-html'));
-        };
+        setTitle: function (index) {
+            var text = this.slides[index].firstChild.title,
+                titleElement = this.titleElement;
+            if (titleElement.length) {
+                this.titleElement.empty();
+                if (text) {
+                    titleElement[0].appendChild(document.createTextNode(text));
+                }
+            }
+        },
 
         setTimeout: function (func, args, wait) {
             var that = this;
