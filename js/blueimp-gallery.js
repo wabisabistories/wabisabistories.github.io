@@ -925,8 +925,14 @@
         },
 
         setTitle: function (index) {
-            var obj = $(this.slides[index]);
-                this.titleElement.html(obj.data('title-html'));
+            var text = this.slides[index].firstChild.title,
+                titleElement = this.titleElement;
+            if (titleElement.length) {
+                this.titleElement.empty();
+                if (text) {
+                    titleElement[0].appendChild(document.createTextNode(text));
+                }
+            }
         },
 
         setTimeout: function (func, args, wait) {
