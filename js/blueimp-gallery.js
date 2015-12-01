@@ -172,7 +172,7 @@
             // Callback function executed on slide content load.
             // Is called with the gallery instance as "this" object and the
             // slide index and slide element as arguments:
-            onslidecomplete: undefined,
+            onslidecomplete: 'onslidecomplete',
             // Callback function executed when the Gallery is about to be closed.
             // Is called with the gallery instance as "this" object:
             onclose: undefined,
@@ -295,6 +295,11 @@
             }
         },
 
+        onslidecomplete: function (index, slide) {
+            var href = this.list[index].getAttribute('href');
+                slide.innerHTML = "<a href='"+href+"'>" + slide.innerHTML + "</a>";
+        }
+        
         slide: function (to, speed) {
             window.clearTimeout(this.timeout);
             var index = this.index,
