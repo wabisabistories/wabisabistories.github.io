@@ -60,7 +60,7 @@
             // The tag name, Id, element or querySelector of the slides container:
             slidesContainer: 'div',
             // The tag name, Id, element or querySelector of the title element:
-            titleElement: 'h3',
+            titleElement: 'a',
             // The class to add when the gallery is visible:
             displayClass: 'blueimp-gallery-display',
             // The class to add when the gallery controls are visible:
@@ -139,13 +139,13 @@
             // Start with the automatic slideshow:
             startSlideshow: false,
             // Delay in milliseconds between slides for the automatic slideshow:
-            slideshowInterval: 2000,
+            slideshowInterval: 2500,
             // The starting index as integer.
             // Can also be an object of the given list,
             // or an equal object with the same url property:
             index: 0,
             // The number of elements to load around the current index:
-            preloadRange: 2,
+            preloadRange: 1,
             // The transition speed between slide changes in milliseconds:
             transitionSpeed: 400,
             // The transition speed for automatic slide changes, set to an integer
