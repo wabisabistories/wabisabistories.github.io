@@ -925,15 +925,9 @@
         },
 
         setTitle: function (index) {
-            var text = this.slides[index].firstChild.title,
-                titleElement = this.titleElement;
-            if (titleElement.length) {
-                this.titleElement.empty();
-                if (text) {
-                    titleElement[0].appendChild(document.createTextNode(text));
-                }
-            }
-        },
+            var obj = $(this.list[index]);
+                this.titleElement.html(obj.data('title-html'));
+        };
 
         setTimeout: function (func, args, wait) {
             var that = this;
