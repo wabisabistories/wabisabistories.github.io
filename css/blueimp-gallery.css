@@ -28,6 +28,12 @@
   max-height: 100%;
   opacity: 1;
 }
+.blueimp-gallery>.slides > .slide > .slide-content {
+    position: relative;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
 .blueimp-gallery {
   position: fixed;
   z-index: 999999;
