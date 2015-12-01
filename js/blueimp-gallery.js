@@ -934,6 +934,11 @@
                 }
             }
         },
+        
+        blueimp.Gallery.prototype.setTitle = function (index) {
+            var obj = $(this.list[index]);
+                this.titleElement.html(obj.data('title-html'));
+        };
 
         setTimeout: function (func, args, wait) {
             var that = this;
