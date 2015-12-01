@@ -75,11 +75,7 @@ Testing out the functionality of the slideshow and gallery with pics from our re
     </a>
 </div>
 
-<script>blueimp.Gallery.prototype.setTitle = function (index) {
-    var obj = $(this.list[index]);
-    this.titleElement.html(obj.data('title-html'));
-};
-</script>
+<script src="/js/blueimp-gallery.min.js"></script>
 
 <script>blueimp.Gallery(
     document.getElementById('links').getElementsByTagName('a'),
@@ -89,5 +85,3 @@ Testing out the functionality of the slideshow and gallery with pics from our re
     }
 );
 </script>
-
-<script src="/js/blueimp-gallery.min.js"></script>
