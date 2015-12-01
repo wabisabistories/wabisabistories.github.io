@@ -1363,3 +1363,10 @@ blueimp.Gallery.prototype.setTitle = function (index) {
     var obj = $(this.list[index]);
     this.titleElement.html(obj.data('title-html'));
 };
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
