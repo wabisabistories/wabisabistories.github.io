@@ -56,6 +56,10 @@ blueimp.Gallery(
     {
         container: '#blueimp-gallery-carousel',
         carousel: true
+        urlProperty: 'link',
+        onslidecomplete: function (index, slide) {
+        var href = this.list[index].getAttribute('href');
+        slide.innerHTML = "<a href='"+href+"'>" + slide.innerHTML + "</a>";
     }
 );
 </script>
