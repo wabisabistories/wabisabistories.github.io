@@ -60,7 +60,7 @@
             // The tag name, Id, element or querySelector of the slides container:
             slidesContainer: 'div',
             // The tag name, Id, element or querySelector of the title element:
-            titleElement: 'a',
+            titleElement: 'h3',
             // The class to add when the gallery is visible:
             displayClass: 'blueimp-gallery-display',
             // The class to add when the gallery controls are visible:
