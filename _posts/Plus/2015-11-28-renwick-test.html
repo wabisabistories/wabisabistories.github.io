@@ -71,4 +71,12 @@ Testing out the functionality of the slideshow and gallery with pics from our re
     </a>
 </div>
 
-<script src="js/galleryfooter.js"></script>
+<script>
+    blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
