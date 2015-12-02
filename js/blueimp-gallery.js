@@ -145,7 +145,7 @@
             // or an equal object with the same url property:
             index: 0,
             // The number of elements to load around the current index:
-            preloadRange: 2,
+            preloadRange: 4,
             // The transition speed between slide changes in milliseconds:
             transitionSpeed: 400,
             // The transition speed for automatic slide changes, set to an integer
