@@ -907,7 +907,7 @@
             }
         },
 
-        handleSlide: function (index) {
+        /*handleSlide: function (index) {
             if (!this.options.continuous) {
                 this.updateEdgeClasses(index);
             }
@@ -916,7 +916,7 @@
                 this.unloadElements(index);
             }
             this.setTitle(index);
-        },
+        },*/
 
         onslide: function (index) {
             this.index = index;
