@@ -523,10 +523,6 @@ Small Device Styles
     font-size: 4.2vw;
   }
 
-  a {
-    fint-size: 4vw;
-  }
-  
   h1 {
     font-size: 7vw;
   }
@@ -536,6 +532,10 @@ Small Device Styles
   }
   
   h3 {
+    font-size: 4vw;
+  }
+  
+  h3>a {
     font-size: 4vw;
   }
   
