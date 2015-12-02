@@ -389,8 +389,8 @@ form {
     margin-left: 10px;
 }
 
-#links-hide {
-    display: none;
+.links>a{
+  color: #ffffff;
 }
 
 /*******************************************************************************
