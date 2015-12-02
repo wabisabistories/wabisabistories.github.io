@@ -1,8 +1,12 @@
-blueimp.Gallery.prototype.setTitle = function (index) {
+
+<script>
+    blueimp.Gallery.prototype.setTitle = function (index) {
     var obj = $(this.list[index]);
     this.titleElement.html(obj.data('title-html'));
 };
+</script>
 
+<script>
 blueimp.Gallery(
     document.getElementById('links'), {
         onslide: function (index, slide) {
@@ -14,7 +18,9 @@ blueimp.Gallery(
             }
         }
 });
+</script>
 
+<script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
@@ -30,3 +36,4 @@ document.getElementById('links').onclick = function (event) {
         links = this.getElementsByTagName('a');
     blueimp.Gallery(links, options);
 };
+</script>
