@@ -907,7 +907,7 @@
             }
         },
 
-        /*handleSlide: function (index) {
+        handleSlide: function (index) {
             if (!this.options.continuous) {
                 this.updateEdgeClasses(index);
             }
@@ -916,7 +916,7 @@
                 this.unloadElements(index);
             }
             this.setTitle(index);
-        },*/
+        },
 
         onslide: function (index) {
             this.index = index;
@@ -924,7 +924,7 @@
             this.setTimeout(this.options.onslide, [index, this.slides[index]]);
         },
 
-        /*setTitle: function (index) {
+        setTitle: function (index) {
             var text = this.slides[index].firstChild.title,
                 titleElement = this.titleElement;
             if (titleElement.length) {
@@ -933,7 +933,7 @@
                     titleElement[0].appendChild(document.createTextNode(text));
                 }
             }
-        },*/
+        },
 
         setTimeout: function (func, args, wait) {
             var that = this;
