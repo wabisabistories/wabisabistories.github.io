@@ -6,7 +6,7 @@ icon: /images/SquareNRD.png
 
 fb_appid: 956209357778602
 paginate: 3
-paginate_path: /blog/page:num/
+paginate_path: /home/page:num/
 permalink: /blog/:title/
 markdown: rdiscount
 excerpt_separator: <!--more-->
