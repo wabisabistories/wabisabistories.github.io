@@ -9,7 +9,7 @@ permalink: /blog/:title/
 markdown: rdiscount
 excerpt_separator: <!--more-->
 
-pygments: true
+highlighter: rouge
 
 defaults: 
 -
