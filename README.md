@@ -1,2 +1,2 @@
 # wabisabistories.github.io
-Home of Wabi Sabi Stories
+Home of Wabi-Sabi Stories
