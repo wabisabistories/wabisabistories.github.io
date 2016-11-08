@@ -1,10 +1,10 @@
-name: NRDPLS
-title: NRDPLS
-description: Passion for life, and other nerdy things
-url: "http://nrdpls.com"
-icon: /images/SquareNRD.png
+name: Wabi-Sabi Stories
+title: Wabi-Sabi Stories
+description: Sharing stories that serve one another
+url: "http://wabisabistories.com"
+icon: /images/wss_logo.jpg
 
-fb_appid: 956209357778602
+fb_appid: 1168945993198378
 permalink: /blog/:title/
 markdown: rdiscount
 excerpt_separator: <!--more-->
